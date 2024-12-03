@@ -3,4 +3,4 @@
   > For the time being, I'll only attatch me .bashrc for easy syncronization across my other installations
   > Later on, after some reaserch, I'll add a setup script.
   >> Too lazy rn ngl
-- Real!
+# Real!
