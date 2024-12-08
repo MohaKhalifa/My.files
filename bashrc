@@ -1,6 +1,6 @@
 #
 # ~/.bashrc
-# This is Mohamed Khalifa's Bashrc, upladed on github on 12/3/24 mm/dd/yy.
+# This is Mohamed Khalifa's Bashrc, upladed on github on 12/3/24 mm/dd/yy. & updated frequently
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
