@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-terminal" version="1.0">
+  <property name="background-mode" type="string" value="TERMINAL_BACKGROUND_IMAGE"/>
+  <property name="background-image-file" type="string" value="/home/arch/Pictures/GreenGnuHD.png"/>
+  <property name="color-foreground" type="string" value="#ffffff"/>
+  <property name="background-image-style" type="string" value="TERMINAL_BACKGROUND_STYLE_FILLED"/>
+  <property name="title-initial" type="string" value="NO"/>
+  <property name="background-image-shading" type="double" value="0.72999999999999998"/>
+  <property name="encoding" type="string" value=""/>
+  <property name="run-custom-command" type="bool" value="false"/>
+  <property name="custom-command" type="string" value="neofetch"/>
+  <property name="color-palette" type="string" value="#000000;#aa0000;#00aa00;#aa5500;#0000aa;#aa00aa;#00aaaa;#aaaaaa;#555555;#ff5555;#55ff55;#ffff55;#5555ff;#ff55ff;#55ffff;#ffffff"/>
+  <property name="title-mode" type="string" value="TERMINAL_TITLE_HIDE"/>
+  <property name="scrolling-bar" type="string" value="TERMINAL_SCROLLBAR_RIGHT"/>
+  <property name="misc-cursor-shape" type="string" value="TERMINAL_CURSOR_SHAPE_UNDERLINE"/>
+  <property name="misc-cursor-blinks" type="bool" value="false"/>
+  <property name="misc-copy-on-select" type="bool" value="true"/>
+  <property name="dropdown-keep-open-default" type="bool" value="false"/>
+  <property name="dropdown-width" type="uint" value="40"/>
+  <property name="dropdown-show-borders" type="bool" value="false"/>
+  <property name="dropdown-position" type="uint" value="100"/>
+  <property name="dropdown-position-vertical" type="uint" value="0"/>
+  <property name="dropdown-height" type="uint" value="80"/>
+  <property name="color-background" type="string" value="#000000"/>
+  <property name="color-background-vary" type="bool" value="false"/>
+  <property name="color-cursor-foreground" type="string" value=""/>
+  <property name="color-cursor" type="string" value=""/>
+  <property name="color-cursor-use-default" type="bool" value="true"/>
+  <property name="color-selection" type="string" value="#1a1a5f5fb4b4"/>
+  <property name="color-selection-background" type="string" value=""/>
+  <property name="color-selection-use-default" type="bool" value="false"/>
+  <property name="color-bold" type="string" value=""/>
+  <property name="color-bold-use-default" type="bool" value="true"/>
+  <property name="color-bold-is-bright" type="bool" value="true"/>
+  <property name="color-use-theme" type="bool" value="false"/>
+  <property name="tab-activity-color" type="string" value="#aa0000"/>
+</channel>
