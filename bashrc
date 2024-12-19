@@ -8,6 +8,7 @@
 # alias d='shred -u'
 alias Syu='sudo apt update && sudo apt upgrade'
 alias ls='ls --color=auto'
+alias sec='sudo keepassxc && exit'
 alias learn='cd ~/bu/LR/Coursera/LR && cl && vim ~/bu/LR/Coursera/LR/README.md && git add ~/bu/LR/Coursera/LR/README.md && git commit ~/bu/LR/Coursera/LR/README.md -m "big brain time" && git push origin main' 
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
