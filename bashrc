@@ -2,7 +2,8 @@
 # ~/.bashrc
 #
 # oiskjlfkjvlskfjvlaksjlkvj	test	
-# still testing yesyesyes	
+# still testing yesyesyes
+# another test	
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 alias d='shred -u'
