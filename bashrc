@@ -1,4 +1,5 @@
 #
+# I blam deleted my whole commits lol
 # Enough with the cring
 # ~/.bashrc
 #
