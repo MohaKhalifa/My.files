@@ -23,7 +23,7 @@ alias x='exit'
 alias j='cd .. && clear && ls'
 alias ch='vim ~/.bashrc && source ~/.bashrc && cp ~/.bashrc ~/bu/LR/git/my.files/bashrc'  
 # Tried making them in the same command but I couldn't figure out how to push a commit from a different dir & the && cd just doesn't work for some reason.
-alias pch='git add ~/bu/LR/git/my.files/bashrc && git commit ~/bu/LR/git/my.files/bashrc -m "Coool NEw command" && cd ~/bu/LR/git/my.files && git push origin main'   
+alias pch='git add ~/bu/LR/git/my.files/bashrc && git commit ~/bu/LR/git/my.files/bashrc -m "Coool NEw command" && cd ~/bu/LR/git/my.files && git push origin main && cd -'  # I'm wasting my time fr 
 #cowsay is a reqired program for the following command you can install it via your package manager however its not recommended if you can't face the consiquenses of the bloat it requires, (Download it on your own risk)
 alias o='xclip -o'
 alias c='| xlip'
