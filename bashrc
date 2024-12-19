@@ -1,5 +1,5 @@
 #
-# I blam deleted my whole commits lol Update: turns out I didn't; I gotta learn it
+# I blam deleted my whole commits lol Update: turns out I didn't; I gotta learn it i
 # Enough with the cring
 # ~/.bashrc
 #
