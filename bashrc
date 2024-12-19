@@ -19,7 +19,7 @@ alias ya='echo "What you fancy tonight?" && read name && yt-dlp -P ~/Music -f 14
 alias ll='ls -lXAh -g' #x for grouping by file extention - l for list - A for hidden files/dirs - h for humanly readable file sizes
 alias sl='clear'
 alias x='exit'
-alias j='cd .. && clear && ls'
+alias j='cd .. && sl && ls'
 alias ch='vim ~/.bashrc && source ~/.bashrc && cp ~/.bashrc ~/bu/LR/git/my.files/bashrc'  
 # Tried making them in the same command but I couldn't figure out how to push a commit from a different dir & the && cd just doesn't work for some reason.
 alias pch='cd ~/bu/LR/git/my.files && git add bashrc && git commit bashrc -m "Coool New alias" && git push origin main && cd - && sl'  # I'm wasting my time fr 
@@ -32,7 +32,7 @@ alias pdf='evince'
 alias pic='sxiv *.png *.jpg *.jpeg *.JPEG *.jpeg .'
 alias ms='mpv /home/arch/Music'
 alias po='poweroff'
-alias cl='clear && ls'
+alias cl='sl && ls'
 alias re='reboot'
 alias uni='cd /home/arch/Desktop/Semester\ 6/'
 alias yaa='echo "Albums downloader, Links only" && read name && echo "Artist?" && read ight && echo "Album?" && read album &&  yt-dlp --yes-playlist -f 140 -P /home/arch/Music/'$ight'/'$album' $name && exit' 
