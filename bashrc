@@ -22,7 +22,7 @@ alias j='cd .. && sl && ls'
 alias ch='vim ~/.bashrc && source ~/.bashrc && cp ~/.bashrc ~/git/my.files/bashrc'  
 # Tried making them in the same command but I couldn't figure out how to push a commit from a different dir & the && cd just doesn't work for some reason.
 alias pch='cd ~/git/my.files && git add bashrc && git commit bashrc -m "Coool New alias" && git push origin main && cd - && sl '
-alias phtml='git add ~/git/Elgahid/* && git commit ~/git/Elgahid/* && cd ~/git/Elgahid && git push && cd - && sl'  # I'm wasting my time fr 
+alias phtml='cd ~/git/Elgahid && git add ./* && git commit ./* && git push && cd - && sl'  # I'm wasting my time fr 
 #cowsay is a reqired program for the following command you can install it via your package manager however its not recommended if you can't face the consiquenses of the bloat it requires, (Download it on your own risk)
 # alias o='xclip -o'
 # alias c='| xlip'
