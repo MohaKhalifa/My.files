@@ -9,7 +9,7 @@ alias upy='sudo apt update && sudo apt upgrade'
 alias gity='git add ./* && git commit -m "gity" && git push'
 alias ls='ls --color=auto'
 alias sec='sudo keepassxc && exit'
-alias learn='cd ~/git/LR && sl && vim ~/git/LR/README.md && git add ~/git/LR/README.md && git commit ~/git/LR/README.md -m "big brain time" && git push origin main && sl' 
+alias learn='cd ~/git/LR && sl && vim ~/git/LR/README.md && git add ~/git/LR/README.md && git commit ~/git/LR/README.md -m "big brain time" && git push origin main && sl && cd -'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 alias here='sudo apt install'
@@ -20,7 +20,7 @@ alias ll='ls -lXAh -g' #x for grouping by file extention - l for list - A for hi
 alias sl='clear'
 alias x='exit'
 alias j='cd .. && sl && ls'
-alias ch='vim ~/.bashrc && source ~/.bashrc && cp ~/.bashrc ~/git/my.files/bashrc' 
+alias ch='vim ~/.bashrc && source ~/.bashrc && cp ~/.bashrc ~/git/my.files/bashrc && cd -'
 # Tried making them in the same command but I couldn't figure out how to push a commit from a different dir & the && cd just doesn't work for some reason.
 alias pch='cd ~/git/my.files && git add ./* && git commit -m "Coool New alias" && git push origin main && cd - && sl '
 alias phtml='cd ~/git/Elgahid && git add ./* && git commit ./* -m "Webpage Update" && git push && cd - && sl'  # I'm wasting my time fr 
