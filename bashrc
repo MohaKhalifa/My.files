@@ -5,7 +5,7 @@
 # love to check
 [[ $- != *i* ]] && return
 # alias d='shred -u'
-# alias Syu='sudo apt update && sudo apt upgrade'
+alias upy='sudo apt update && sudo apt upgrade'
 alias gity='git add ./* && git commit -m "gity" && git push'
 alias ls='ls --color=auto'
 alias sec='sudo keepassxc && exit'
