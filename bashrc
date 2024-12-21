@@ -10,7 +10,7 @@ alias upy='sudo apt update && sudo apt upgrade'
 alias gity='git add ./* && git commit -m "gity" && git push'
 alias ls='ls --color=auto'
 alias sec='sudo keepassxc && exit'
-alias learn='cd ~/git/LR/ && vim README.md && git add ./* && git commit ./* -m "big brain time" && git push && cd - && sl'
+alias learn='cd ~/git/LR/ && vim README.md && git add ./* && git commit ./* -m "big brain time" && git push && cd - && sl' # AutoPush
 alias vlearn='less ~/git/LR/README.md'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
