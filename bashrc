@@ -20,7 +20,7 @@ alias ll='ls -lXAh -g' #x for grouping by file extention - l for list - A for hi
 alias sl='clear'
 alias x='exit'
 alias j='cd .. && sl && ls'
-alias ch='vim ~/.bashrc && source ~/.bashrc && cp ~/.bashrc ~/git/my.files/bashrc && pch'  
+alias ch='vim ~/.bashrc && source ~/.bashrc && cp ~/.bashrc ~/git/my.files/bashrc' 
 # Tried making them in the same command but I couldn't figure out how to push a commit from a different dir & the && cd just doesn't work for some reason.
 alias pch='cd ~/git/my.files && git add bashrc && git commit bashrc -m "Coool New alias" && git push origin main && cd - && sl '
 alias phtml='cd ~/git/Elgahid && git add ./* && git commit ./* -m "Webpage Update" && git push && cd - && sl'  # I'm wasting my time fr 
