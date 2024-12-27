@@ -25,7 +25,7 @@ alias ch='vim ~/.bashrc && source ~/.bashrc && cp ~/.bashrc ~/git/my.files/bashr
 alias pch='cd ~/git/my.files && git add ./* && git commit -m "Coool New alias" && git push origin main && cd - && sl '
 alias phtml='cd ~/git/Elgahid && git add ./* && git commit ./* -m "Webpage Update" && git push && cd - && sl'  # I'm wasting my time fr 
 alias ehtml='vim ~/git/Elgahid/index.html && phtml'
-alias ecss='vim ~/git/Elhahid/index.css'
+alias ecss='vim ~/git/Elgahid/index.css'
 alias vhtml='chromium ~/git/Elgahid/index.html'
 #cowsay is a reqired program for the following command you can install it via your package manager however its not recommended if you can't face the consiquenses of the bloat it requires, (Download it on your own risk)
 # alias o='xclip -o'
