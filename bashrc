@@ -15,7 +15,7 @@ PS1='[\u@\h \W]\$ '
 alias here='sudo apt install'
 alias capo='setxkbmap -option "caps:swapescape" && x'
 alias ya='echo "What you fancy tonight?" && read link && yt-dlp -P ~/Music -f 140 "ytsearch:$link"' 
-alias yal='echo "Song Link" && read name && yt-dlp -f 140 -P ~/Music/bu/ $name'
+alias yal='echo "Song Link" && read name && yt-dlp --no-playlist -f 140 -P ~/Music/bu/ $name'
 # && echo $name | tr '\b' '\\\b' | $nigga && mv $name $nigga.m4a' -o flage for the name
 alias ll='ls -lXAh -g' #x for grouping by file extention - l for list - A for hidden files/dirs - h for humanly readable file sizes
 alias sl='clear'
@@ -41,3 +41,7 @@ alias uni='cd ~/Desktop/Semester\ 6/'
 alias yaa='echo "Links only" && read link && echo "Artist?" && read ight && echo "Album?" && read album &&  yt-dlp --yes-playlist -f 140 -P ~/Music/$ight/$album/$link && exit' 
 alias pully='cd ~/git/LR && git pull && cd ~/git/Elgahid && git pull && cd ~/git/my.files && git pull && cd'
 # alias note='echo -n "what Updates you got?" && read note && echo -n "you have appended" && sudo echo $note | ~/dox/To-Do && echo "To your To-Do list!"'
+ColorCursor=#c5c5c8c8c6c6
+ColorForeground=#c5c5c8c8c6c6
+ColorBackground=#000000000000
+ColorPalette=#28282a2a2e2e;#a5a542424242;#8c8c94944040;#dede93935f5f;#5f5f81819d9d;#858567678f8f;#5e5e8d8d8787;#707078788080;#18182f2f5050;#cccc66666666;#b5b5bdbd6868;#f0f0c6c67474;#8181a2a2bebe;#b2b29494bbbb;#8a8abebeb7b7;#c5c5c8c8c6c6
