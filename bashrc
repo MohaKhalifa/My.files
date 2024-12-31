@@ -15,7 +15,7 @@ PS1='[\u@\h \W]\$ '
 alias here='sudo apt install'
 alias capo='setxkbmap -option "caps:swapescape" && x'
 alias ya='echo "What you fancy tonight?" && read link && yt-dlp -P ~/Music -f 140 "ytsearch:$link"' 
-alias yal='echo "Song Link" && read name && yt-dlp --no-playlist -f 140 -P ~/Music/bu/ $name'
+alias yal='echo "Song Link" && read name && yt-dlp --no-playlist -f 140 -P ~/Music/ $name'
 # && echo $name | tr '\b' '\\\b' | $nigga && mv $name $nigga.m4a' -o flage for the name
 alias ll='ls -lXAh -g' #x for grouping by file extention - l for list - A for hidden files/dirs - h for humanly readable file sizes
 alias sl='clear'
