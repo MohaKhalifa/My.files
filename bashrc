@@ -15,7 +15,7 @@ alias x='exit'
 alias j='cd .. && sl && ls'
 alias shellme='vim ~/.bashrc && source ~/.bashrc && cp ~/.bashrc ~/gh/my.files/bashrc' 
 # Tried making them in the same command but I couldn't figure out how to push a commit from a different dir & the && cd just doesn't work for some reason.
-alias shellem='cd ~/gh/my.files && git add bashrc && lcommit && x'
+alias shellem='cd ~/gh/my.files && git add bashrc && lcommit'
 # alias o='xclip -o'
 # alias c='| xlip'
 alias wimip='curl -s ifconfig.me'
